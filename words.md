@@ -1,4 +1,4 @@
-# words
+# 문법
 
 ```text
 타동사(transitive verb)
@@ -11,11 +11,17 @@
   -> 문장에 목적어가 없으면 자동사 
 ```
 
-## user lacks privilege or object not found: (object)xxx.xxx
+## 본론
+
+### user lacks privilege or object not found
 
 [번역 결과](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=user%20lacks%20privilege%20or%20object%20not%20found)
 
-### 등장 단어 중 모르는 단어
+#### 발생 원인 예시
+
+데이터 베이스 스키마에 없는 데이터 컬럼일때 많이 발생하는 에러
+
+#### 등장 단어 중 모르는 단어
 
 * lack
   * 명사
