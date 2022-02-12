@@ -15,7 +15,7 @@
 
 ### user lacks privilege or object not found
 
-[번역 결과](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=user%20lacks%20privilege%20or%20object%20not%20found)
+[\[번역\]사용자에게 권한이 없거나 개체를 찾을 수 없습니다.](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=user%20lacks%20privilege%20or%20object%20not%20found)
 
 #### 발생 원인 예시
 
