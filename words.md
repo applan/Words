@@ -79,6 +79,10 @@ ex) name : VARCHAR 타입 하지만 값에 숫자를 넣으면 에러 발생
 
 [\[번역\]\'com.example.demo' 유형의 빈을 정의하는 것이 좋습니다.구성에 \'BookRepository\'가 있습니다.](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=Consider%20defining%20a%20bean%20of%20type%20%25%2339com.example.demo.BookRepository%25%2339%20in%20your%20configuration.)
 
+***발생 원인 예***
+
+Bean을 생성하지않고 의존성 주입을 진행하는경우 발생
+
 ***모르는 등장 단어***
 
 * consider
@@ -102,3 +106,28 @@ ex) name : VARCHAR 타입 하지만 값에 숫자를 넣으면 에러 발생
     * 배열, 배치; 배열\[배치\]형태
   * 컴퓨터
     * 환경 설정
+
+### Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[\[번역\]원두 중 하나를 @Primary로 표시하거나, 소비자가 여러 원두를 받아들이도록 업데이트하거나, @Qualifier를 사용하여 소비해야 할 원두를 식별하는 것을 고려하십시오.](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=Consider%20marking%20one%20of%20the%20beans%20as%20%40Primary%2C%20updating%20the%20consumer%20to%20accept%20multiple%20beans%2C%20or%20using%20%40Qualifier%20to%20identify%20the%20bean%20that%20should%20be%20consumed)
+
+***발생 원인 예***
+
+한 개의 빈을 의존성 주입에 사용하는게 아닌 두 개의 빈을 만들어두고 의존성 주입을 진행하는 경우 Spring에서 어떤 빈을 사용할지 모를때 발생
+
+***모르는 등장 단어***
+
+* consumer
+  * 명사
+    * 소비자
+* identify
+  * 타동사
+    * (신원 등을) 확인하다 \[알아보다\]
+    * 찾다, 발견하다
+    * (신원 등을) 알아보게\[인정하게\]하다
+* consumed
+  * 타동사
+    * (특히 연료·에너지·시간을)소모하다
+    * 먹다; 마시다
+    * (강렬한 감정이)사로잡다\[휩싸다\]
+    * 전소시키다, 휩싸다

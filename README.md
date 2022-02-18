@@ -14,3 +14,6 @@ i don't know this word so i learning
 * consider
 * defining
 * configuration
+* consumer
+* identify
+* consumed
