@@ -74,3 +74,31 @@ ex) name : VARCHAR 타입 하지만 값에 숫자를 넣으면 에러 발생
     * (위치·순서 등의)도치\[전도\]
     * 반전
     * 역
+
+### Consider defining a bean of type 'com.example.demo.BookRepository' in your configuration
+
+[\[번역\]\'com.example.demo' 유형의 빈을 정의하는 것이 좋습니다.구성에 \'BookRepository\'가 있습니다.](https://papago.naver.com/?sk=en&tk=ko&hn=0&st=Consider%20defining%20a%20bean%20of%20type%20%25%2339com.example.demo.BookRepository%25%2339%20in%20your%20configuration.)
+
+***모르는 등장 단어***
+
+* consider
+  * 동사
+    * 사려\[고려/숙고\]하다
+  * 타동사
+    * (~을~로) 여기다\[생각하다\]
+    * (특히 남의 감정을) 고려하다\[감안하다\]
+  * 타동사 격식
+    * 자세히 바라보다, 음미하다
+
+* defining
+  * 타동사
+    * (단어·구의 뜻을)정의하다
+    * 윤곽\[모양/경계\]을 분명히 나타내다
+  * 동사
+    * 규정하다, 분명히 밝히다
+
+* configuration
+  * 명사
+    * 배열, 배치; 배열\[배치\]형태
+  * 컴퓨터
+    * 환경 설정
