@@ -68,7 +68,7 @@ ex) name : VARCHAR 타입 하지만 값에 숫자를 넣으면 에러 발생
 
 ***모르는 등장 단어***
 
-* inersion (in + vert)
+* inversion (in + vert)
   * [\[쉽게 이해하기\]](https://m.blog.naver.com/eternity9us/221125581407)
   * 명사
     * (위치·순서 등의)도치\[전도\]
